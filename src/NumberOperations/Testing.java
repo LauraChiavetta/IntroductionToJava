@@ -7,8 +7,11 @@ public class Testing {
         a-=4;
         int b = a;
         b++;
-        System.out.println(a);
-        System.out.println(b*(b+1));
-
+        if(b % 2 != 0){
+            System.out.println(b);
+        }
+        if( b*(b+1) %3 == 0 ) {
+            System.out.println("This number is a multiple of 3");
+        }
     }
 }
